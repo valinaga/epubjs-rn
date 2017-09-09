@@ -309,7 +309,7 @@ window.onerror = function (message, file, line, col, error) {
 
     sendMessage({method:"loaded", value: true});
 
-        // Snap scrolling
+    // Snap scrolling
     var isChrome = /Chrome/.test(navigator.userAgent);
     var isWebkit = !isChrome && /AppleWebKit/.test(navigator.userAgent);
 
